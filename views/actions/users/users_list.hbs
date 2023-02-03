@@ -1,0 +1,37 @@
+<div class="container">
+    <h1 class="text-center">{{title}} list</h1>
+    <table class="table table_hover">
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>username</th>
+                <th>role</th>
+                <th>email</th>
+                <th>action</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#if users.length}}
+            {{#each users}}
+            <tr>
+                <td>{{id}}</td>
+                <td>{{username}}</td>
+                <td>{{role}}</td>
+                <td>{{email}}</td>
+                <td style="font-size: 25px;">
+                    <a href="/user/{{id}}" class="mr-3"><i class="fa  fa-ellipsis-h text-dark"></i></a>
+                    <a href="/update_user/{{id}}" class="mr-3"><i class="fa fa-edit text-primary"></i></a>
+                    <a href="/delete_user/{{id}}"><i class="fa fa-trash text-danger"></i></a>
+                </td>
+            </tr>
+            {{/each}}
+            {{/if}}
+            {{#else}}
+                <h1>No users</h1>
+            {{/else}}
+        </tbody>
+    </table>
+    <div class="row">
+        <a href="/create_user" class="ml-auto mr-auto"><button class="btn btn-success"> add user</button></a>
+    </div>
+</div>

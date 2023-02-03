@@ -1,0 +1,58 @@
+[
+    {
+        "id": "d8580c83-a03c-44b0-b8e1-eed032400c13",
+        "userId": "83949887-2523-439c-9f61-a7de502d5673",
+        "name": "Monkey",
+        "color": "black",
+        "country": "Magagascar",
+        "year": "2009"
+    },
+    {
+        "id": "5ef648ed-9568-4093-8524-ca227b6a3627",
+        "userId": "83949887-2523-439c-9f61-a7de502d5673",
+        "name": "Lion",
+        "color": "yellow",
+        "country": "Africa",
+        "year": "2007"
+    },
+    {
+        "id": "345d640b-7386-4be9-b823-4e41b41e4172",
+        "userId": "83949887-2523-439c-9f61-a7de502d5673",
+        "name": "Horse",
+        "color": "brown",
+        "country": "Asia",
+        "year": "2016"
+    },
+    {
+        "id": "71b5378b-31e6-4f82-aab5-9d63f858b537",
+        "userId": "83949887-2523-439c-9f61-a7de502d5673",
+        "name": "Donkey",
+        "color": "grey",
+        "country": "Asia",
+        "year": "2016"
+    },
+    {
+        "id": "82625889-9e02-4915-bf28-16d2acc4a99b",
+        "userId": "83949887-2523-439c-9f61-a7de502d5673",
+        "name": "Zebra",
+        "color": "grey",
+        "country": "Asia",
+        "year": "2016"
+    },
+    {
+        "id": "bd8787b4-99d1-45a2-a879-3b59a75c753a",
+        "userId": "405102e3-354d-4478-acd4-17f675362df7",
+        "name": "Monkey",
+        "color": "white",
+        "country": "Madagascar",
+        "year": "2016"
+    },
+    {
+        "id": "a5bf3386-686d-44c4-bf9a-2ac9e9e988fb",
+        "userId": "405102e3-354d-4478-acd4-17f675362df7",
+        "name": "Monkey",
+        "color": "white",
+        "country": "USA",
+        "year": "2019"
+    }
+]

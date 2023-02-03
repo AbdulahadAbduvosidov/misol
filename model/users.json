@@ -1,0 +1,44 @@
+[
+    {
+        "id": "599657ba-27fd-44af-8839-199b86e75477",
+        "username": "Will",
+        "role": "user",
+        "email": "will@gmail.com",
+        "password": "$2a$10$.o3wowBZYH9OAgQVC7qkYuBPF7CMtQNxAvOePVhOCUvelMJmg9FEK"
+    },
+    {
+        "id": "c7573873-5017-4bcc-b707-4fbf2ca13ad0",
+        "username": "Peter",
+        "role": "user",
+        "email": "pet@gmail.com",
+        "password": "$2a$10$1IWagUVzxu3q/Yza1c41FupefUhVbBxdK785gcxmQSa6Hm7XjCQAu"
+    },
+    {
+        "id": "83949887-2523-439c-9f61-a7de502d5673",
+        "username": "Ismoil",
+        "role": "user",
+        "email": "ismoil01@gmail.com",
+        "password": "$2a$10$Cqc9FZv2oD6D5CI.SYXPjeyEkT3.zeXU0sdHxeCOqA8tqPoVSMk.C"
+    },
+    {
+        "id": "37afde64-3855-4a74-b630-078be9130c33",
+        "username": "John",
+        "role": "user",
+        "email": "john@gmail.com",
+        "password": "$2a$10$UahgH0Q0WNXtjIsMJzRF/ec9//1tnQRq0MWjt9koxoH8ez0w7AIby"
+    },
+    {
+        "id": "9995f0b2-e45e-4b3c-8fe4-3212babd3282",
+        "username": "Ibrohim",
+        "role": "user",
+        "email": "ibrohim@gmail.com",
+        "password": "$2a$10$gO41CJE5uNv1vGh3Bbc2L.iEw91x0kzbNcxTrXp4oUAw6hEercw9K"
+    },
+    {
+        "id": "a4977623-8d33-4263-8bc2-1463e06b79f4",
+        "username": "Abdulahad",
+        "role": "admin",
+        "email": "abduahadabduvosidov@gmail.com",
+        "password": "$2a$10$xQsbQYsORpC.xypKYSZqKeJznkI1iGjWI7gyoEqjbmVbodA9Ol/m2"
+    }
+]

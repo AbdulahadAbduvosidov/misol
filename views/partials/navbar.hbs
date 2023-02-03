@@ -1,0 +1,27 @@
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <a class="navbar-brand" href="#">Logo</a>
+    {{#if isSignedIn}}
+    <ul class="navbar-nav">
+        <li class="nav-item {{#if isCarsList}} active {{/if}}"><a class="nav-link" href="/cars">Cars list</a></li>
+        <li class="nav-item {{#if isCreateCar}} active {{/if}}"><a class="nav-link mr-5" href="/create_car">Create car</a></li>
+        <li class="nav-item {{#if isAnimalsList}} active {{/if}}"><a class="nav-link" href="/animals">Animals list</a></li>
+        <li class="nav-item {{#if isCreateAnimal}} active {{/if}}"><a class="nav-link mr-5" href="/create_animal">Create animal</a></li>
+        <li class="nav-item {{#if isFruitsList}} active {{/if}}"><a class="nav-link" href="/fruits">Fruits list</a></li>
+        <li class="nav-item {{#if isCreateFruit}} active {{/if}}"><a class="nav-link mr-5" href="/create_fruit">Create fruit</a></li>
+        {{!-- <li class="nav-item {{#if isUsersList}} active {{/if}}"><a class="nav-link" href="/users">Users list</a></li>
+        <li class="nav-item {{#if isCreateUser}} active {{/if}}"><a class="nav-link mr-5" href="/create_user">Create User</a></li> --}}
+    </ul>
+    <ul class="navbar-nav ml-auto">
+        {{#if isAdmin}}
+            <li class="nav-item {{#if isAdminActive}} active {{/if}}"><a class="nav-link mr-5" href="/admin/users">Admin</a></li>
+        {{/if}}
+        <li class="nav-item"><a class="nav-link" href="/sign_out">Sign out</a></li>
+    </ul>
+    {{else }}
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item {{#if isSignIn}} active {{/if}}"><a class="nav-link" href="/sign_in">Sign in</a></li>
+        <li class="nav-item {{#if isSignUp}} active {{/if}}"><a class="nav-link" href="/sign_up">Sign up</a></li>
+    </ul>
+    {{/if}}
+</nav>
+

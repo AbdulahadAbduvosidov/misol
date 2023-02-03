@@ -1,0 +1,37 @@
+<div class="container">
+    <h1 class="text-center">{{title}} list</h1>
+    <table class="table table_hover">
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>model</th>
+                <th>brand</th>
+                <th>color</th>
+                <th>price</th>
+                <th>year</th>
+                <th>action</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#if cars.length}}
+            {{#each cars}}
+            <tr>
+                <td>{{id}}</td>
+                <td>{{model}}</td>
+                <td>{{brand}}</td>
+                <td>{{color}}</td>
+                <td>{{price}}</td>
+                <td>{{year}}</td>
+                <td style="font-size: 25px;">
+                    <a href="/update_car/{{id}}"><i class="fa fa-edit text-primary mr-3"></i></a>
+                    <a href="/delete_car/{{id}}"><i class="fa fa-trash text-danger"></i></a>
+                </td>
+            </tr>
+            {{/each}}
+            {{/if}}
+            {{#else}}
+                <h1>No cars</h1>
+            {{/else}}
+        </tbody>
+    </table>
+</div>

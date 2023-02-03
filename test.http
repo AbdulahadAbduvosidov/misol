@@ -1,0 +1,159 @@
+GET http://localhost:4040/cars
+
+###
+POST http://localhost:4040/cars
+Content-Type: application/json
+
+{
+    "model": "Supra",
+    "brand": "GTR",
+    "color": "red",
+    "price": 20000,
+    "year": 2023
+}
+
+###
+PUT  http://localhost:4040/cars/dda25d0f-e474-4610-936a-3c8c888fef8a
+Content-Type: application/json
+
+{
+    "model": "BMW",
+    "brand": "x6",
+    "color": "red",
+    "price": 20000,
+    "year": 2023
+}
+
+###
+DELETE   http://localhost:4040/cars/dda25d0f-e474-4610-936a-3c8c888fef8a
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+###
+GET http://localhost:4040/users
+
+###
+POST http://localhost:4040/users
+Content-Type: application/json
+
+{
+    "name": "Ismoil",
+    "surname": "Abdurahmonov",
+    "email": "ismoil4432@gmail.com",
+    "country": "Uzbekistan",
+    "age": 23
+}
+
+###
+PUT  http://localhost:4040/users/4dc8bbc8-9f8e-44ba-b21e-191f712db3a1
+Content-Type: application/json
+
+{
+    "name": "John",
+    "surname": "Doe",
+    "email": "ismoil4432@gmail.com",
+    "country": "Uzbekistan",
+    "age": 23
+}
+
+
+###
+DELETE   http://localhost:4040/users/4dc8bbc8-9f8e-44ba-b21e-191f712db3a1
+
+
+
+
+
+
+
+
+
+
+
+
+###
+GET http://localhost:4040/animals
+
+###
+POST http://localhost:4040/animals
+Content-Type: application/json
+
+{
+    "name": "Donkey",
+    "color": "grey",
+    "country": "Asia",
+    "year": "2016"
+}
+
+###
+PUT  http://localhost:4040/animals/4dc8bbc8-9f8e-44ba-b21e-191f712db3a1
+Content-Type: application/json
+
+{
+    "name": "Donkey",
+    "color": "grey",
+    "country": "Asia",
+    "year": "2016"
+}
+
+
+###
+DELETE   http://localhost:4040/animals/4dc8bbc8-9f8e-44ba-b21e-191f712db3a1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+###
+GET http://localhost:4040/fruits
+
+###
+POST http://localhost:4040/fruits
+Content-Type: application/json
+
+{
+    "name": "banana",
+    "color": "yellow",
+    "country": "Italy",
+    "price": 15
+}
+
+###
+PUT  http://localhost:4040/fruits/4dc8bbc8-9f8e-44ba-b21e-191f712db3a1
+Content-Type: application/json
+
+{
+    "name": "banana",
+    "color": "yellow",
+    "country": "Italy",
+    "price": 15
+}
+
+
+###
+DELETE   http://localhost:4040/fruits/4dc8bbc8-9f8e-44ba-b21e-191f712db3a1
+
+

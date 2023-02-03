@@ -1,0 +1,47 @@
+[
+    {
+        "id": "55ce0e6e-7940-4146-ae1d-c869b36e2dd1",
+        "userId": "405102e3-354d-4478-acd4-17f675362df7",
+        "model": "Supra",
+        "brand": "Toyota",
+        "color": "white",
+        "price": "53500",
+        "year": "2009"
+    },
+    {
+        "id": "8c90330c-a71c-49bf-8655-465670694af3",
+        "userId": "405102e3-354d-4478-acd4-17f675362df7",
+        "model": "GTR",
+        "brand": "Toyota",
+        "color": "white",
+        "price": "52000",
+        "year": "2012"
+    },
+    {
+        "id": "90c237e3-8d8e-49e9-bdb2-190119f0bf40",
+        "userId": "405102e3-354d-4478-acd4-17f675362df7",
+        "model": "GTR",
+        "brand": "Toyota",
+        "color": "white",
+        "price": "55000",
+        "year": "2008"
+    },
+    {
+        "id": "6ac82384-dcab-4922-b386-c8b0ab692de0",
+        "userId": "83949887-2523-439c-9f61-a7de502d5673",
+        "model": "GTR",
+        "brand": "Toyota",
+        "color": "white",
+        "price": "55000",
+        "year": "2009"
+    },
+    {
+        "id": "f4aea18d-e726-45d3-a491-6e78e2c8ae32",
+        "userId": "c7573873-5017-4bcc-b707-4fbf2ca13ad0",
+        "model": "Chiron",
+        "brand": "Bugatti",
+        "color": "black",
+        "price": "2000000",
+        "year": "2017"
+    }
+]

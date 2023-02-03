@@ -1,0 +1,58 @@
+[
+    {
+        "id": "49919ef5-c662-424e-b034-62509592a405",
+        "userId": "83949887-2523-439c-9f61-a7de502d5673",
+        "name": "apple",
+        "color": "yellow",
+        "country": "Italy",
+        "price": "15"
+    },
+    {
+        "id": "636c6bd5-4fa6-44d5-a705-7dc6ecefb764",
+        "userId": "83949887-2523-439c-9f61-a7de502d5673",
+        "name": "Avocado",
+        "color": "yellow",
+        "country": "Africa",
+        "price": "12"
+    },
+    {
+        "id": "58e208d4-870f-4f49-821e-baea0f3b921a",
+        "userId": "83949887-2523-439c-9f61-a7de502d5673",
+        "name": "banana",
+        "color": "yellow",
+        "country": "Italy",
+        "price": 15
+    },
+    {
+        "id": "e3c4fc91-f8e2-4baa-b0b6-251c0afebf7d",
+        "userId": "83949887-2523-439c-9f61-a7de502d5673",
+        "name": "apple",
+        "color": "yellow",
+        "country": "Italy",
+        "price": "15"
+    },
+    {
+        "id": "4806cc0a-56d2-4178-ae6b-899a22ac8565",
+        "userId": "405102e3-354d-4478-acd4-17f675362df7",
+        "name": "Orange",
+        "color": "Orange",
+        "country": "Russia",
+        "price": "15000"
+    },
+    {
+        "id": "3e55e809-7e6f-4877-abec-1b040f81c653",
+        "userId": "405102e3-354d-4478-acd4-17f675362df7",
+        "name": "Apple",
+        "color": "white",
+        "country": "USA",
+        "price": "12"
+    },
+    {
+        "id": "c692c5b2-15bc-495c-aa9b-d57d3e1b4380",
+        "userId": "405102e3-354d-4478-acd4-17f675362df7",
+        "name": "Apple",
+        "color": "red",
+        "country": "Madagascar",
+        "price": "14"
+    }
+]
